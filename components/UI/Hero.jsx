@@ -3,8 +3,8 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
+import dpImg from "../../public/images/dp.jpg";
 
 const Hero = () => {
   return (
@@ -15,21 +15,19 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h2 className="mt-3 mb-3">I&apos;m Arsalan Ali</h2>
+              <h5 className="mb-4">React/Nextjs Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+              I’m a React/Nextjs developer. I have a strong understanding of React fundamentals and have worked with Redux, React Router, and other popular libraries. I’m passionate about writing clean and maintainable code that is easy to understand and modify. I’m always looking for new challenges and opportunities to learn and grow as a developer.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button>
-
-                <button className="secondary__btn">
                   <Link href="#">Download CV</Link>
                 </button>
+
+                {/* <button className="secondary__btn">
+                  <Link href="#">Download CV</Link>
+                </button> */}
               </div>
             </div>
           </Col>
@@ -37,7 +35,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+              <Image alt="hero-image" src={dpImg} width="400" height="400" />
 
               <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
@@ -69,7 +67,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
+                  <h5 className="mb-0">Fresh</h5>
                 </div>
               </div>
             </div>

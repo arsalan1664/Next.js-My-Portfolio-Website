@@ -7,11 +7,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../data/portfolio";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("React/Nextjs");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "React/Nextjs") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -19,7 +19,7 @@ const Portfolio = () => {
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
+    if (filter === "MERN Stack") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -43,19 +43,19 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "React/Nextjs" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("React/Nextjs")}
               >
-                Mobile App
+                React/Nextjs
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "MERN Stack" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("MERN Stack")}
               >
-                Web Design
+                MERN Stack
               </button>
             </div>
           </Col>

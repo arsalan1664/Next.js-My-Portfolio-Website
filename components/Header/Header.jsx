@@ -9,10 +9,10 @@ const NAV__LINK = [
     path: "/",
     display: "Home",
   },
-  {
-    path: "#about",
-    display: "About",
-  },
+  // {
+  //   path: "#about",
+  //   display: "About",
+  // },
   {
     path: "#services",
     display: "Services",
@@ -59,7 +59,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>M</span>uhib
+              <span>A</span>rsalan
             </h1>
           </div>
 
@@ -79,7 +79,7 @@ const Header = () => {
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
-                  <i className="ri-phone-line"></i> +088123456789{" "}
+                  <i className="ri-phone-line"></i> +923062960891{" "}
                 </p>
               </div>
             </div>
