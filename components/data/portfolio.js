@@ -1,25 +1,25 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
+    title: "Hulu",
+    img: "/images/Hulu Clone.PNG",
     category: "React/Nextjs",
     keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    liveUrl: "https://hulu-2-0-gold.vercel.app/",
   },
 
   {
     id: "02",
-    title: "Workout Tracker App",
-    img: "/images/portfolio-02.jpg",
+    title: "Netflix",
+    img: "/images/Netflix.jpg",
     category: "React/Nextjs",
     keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    liveUrl: "https://my-netflex-clone-2c496.web.app/",
   },
 
   {
     id: "03",
-    title: "Fashion Shopping App",
+    title: "Gmail",
     img: "/images/portfolio-03.jpg",
     category: "React/Nextjs",
     keyword: ["Mobile", "App", "UI-UX"],
@@ -28,7 +28,7 @@ const portfolio = [
 
   {
     id: "04",
-    title: "Fashion Shopping App",
+    title: "Linkedin",
     img: "/images/portfolio-04.jpg",
     category: "React/Nextjs",
     keyword: ["Mobile", "App", "UI-UX"],
