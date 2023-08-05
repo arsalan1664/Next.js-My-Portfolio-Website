@@ -16,9 +16,9 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Arsalan Ali</h2>
-              <h5 className="mb-4">React/Nextjs Developer</h5>
+              <h5 className="mb-4">MARN Stack Developer</h5>
               <p>
-              I’m a React/Nextjs developer. I have a strong understanding of React fundamentals and have worked with Redux, React Router, and other popular libraries. I’m passionate about writing clean and maintainable code that is easy to understand and modify. I’m always looking for new challenges and opportunities to learn and grow as a developer.
+              I’m a MARN Stack developer specializing in React/Nextjs. I have a strong understanding of React fundamentals and have worked with Redux, React Router, and other popular libraries. I’m passionate about writing clean and maintainable code that is easy to understand and modify. I’m always looking for new challenges and opportunities to learn and grow as a developer.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
