@@ -32,7 +32,7 @@ const portfolio = [
     img: "/images/gmail.PNG",
     category: "Portfolio",
     keyword: ["React", "Redux"],
-    liveUrl: "#",
+    liveUrl: "gmail-ruby.vercel.app",
   },
 
   {
