@@ -1,11 +1,11 @@
 const portfolio = [
   {
     id: "01",
-    title: "Hulu",
-    img: "/images/Hulu Clone.PNG",
+    title: "Expense Management App",
+    img: "/images/Expense.jpeg",
     category: "Portfolio",
-    keyword: ["Nextjs",  "Page-Router" ,"tmdb"],
-    liveUrl: "https://hulu-2-0-gold.vercel.app/",
+    keyword: ["MERN",  "Expressjs" , 'Reactjs'],
+    liveUrl: "https://tiny-cyan-crow-shoe.cyclic.cloud/",
   },
 
   {
@@ -19,11 +19,11 @@ const portfolio = [
 
   {
     id: "03",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-07.png",
+    title: "Hulu",
+    img: "/images/Hulu Clone.PNG",
     category: "Portfolio",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    keyword: ["Nextjs",  "Page-Router" ,"tmdb"],
+    liveUrl: "https://hulu-2-0-gold.vercel.app/",
   },
 
   {
@@ -38,10 +38,10 @@ const portfolio = [
   {
     id: "05",
     title: "Linkedin",
-    img: "/images/portfolio-04.jpg",
+    img: "/images/OIP.jpg",
     category: "Portfolio",
     keyword: ["React", "Redux"],
-    liveUrl: "#",
+    liveUrl: "https://linedin-clone-beta.vercel.app/",
   },
 
   // {
