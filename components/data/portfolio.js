@@ -1,6 +1,33 @@
 const portfolio = [
+  
+
+
   {
     id: "01",
+    title: "Blog App",
+    img: "/images/linkedin-clone.jpeg",
+    category: "Portfolio",
+    keyword: ["MERN"],
+    liveUrl: "https://arsalan-blog-app.vercel.app/",
+  },
+  {
+    id: "02",
+    title: "Assests Management",
+    img: "/images/assest-management-app.jpeg",
+    category: "Portfolio",
+    keyword: ["React", "Redux"],
+    liveUrl: "https://assest-management-app.vercel.app/",
+  },
+  {
+    id: "03",
+    title: "Laundry App",
+    img: "/images/laundry-app.jpeg",
+    category: "Portfolio",
+    keyword: ["React", "Redux"],
+    liveUrl: "https://arsalan-laundry-app.vercel.app/",
+  },
+  {
+    id: "04",
     title: "Expense Management App",
     img: "/images/Expense.jpeg",
     category: "Portfolio",
@@ -9,16 +36,16 @@ const portfolio = [
   },
 
   {
-    id: "02",
+    id: "05",
     title: "Netflix",
     img: "/images/Netflix.jpg",
     category: "Portfolio",
     keyword: ["React", "Redux","tmdb"],
-    liveUrl: "https://my-netflex-clone-2c496.web.app/",
+    liveUrl: "https://arsalan-netflix-clone.vercel.app/",
   },
 
   {
-    id: "03",
+    id: "06",
     title: "Hulu",
     img: "/images/Hulu Clone.PNG",
     category: "Portfolio",
@@ -27,16 +54,16 @@ const portfolio = [
   },
 
   {
-    id: "04",
+    id: "07",
     title: "Gmail",
     img: "/images/gmail.PNG",
     category: "Portfolio",
     keyword: ["React", "Redux"],
-    liveUrl: "gmail-ruby.vercel.app",
+    liveUrl: "https://gmail-ruby.vercel.app/",
   },
 
   {
-    id: "05",
+    id: "08",
     title: "Linkedin",
     img: "/images/OIP.jpg",
     category: "Portfolio",
@@ -44,14 +71,7 @@ const portfolio = [
     liveUrl: "https://linedin-clone-beta.vercel.app/",
   },
 
-  // {
-  //   id: "05",
-  //   title: "Furniture Shopping App",
-  //   img: "/images/portfolio-05.jpg",
-  //   category: "Portfolio",
-  //   keyword: ["Mobile", "App", "UI-UX"],
-  //   liveUrl: "#",
-  // },
+
 
   // {
   //   id: "06",
