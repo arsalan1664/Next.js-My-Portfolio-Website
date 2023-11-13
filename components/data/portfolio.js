@@ -8,7 +8,7 @@ const portfolio = [
     img: "/images/linkedin-clone.jpeg",
     category: "Portfolio",
     keyword: ["MERN"],
-    liveUrl: "https://arsalan-blog-app.vercel.app/",
+    liveUrl: "https://arsalan-blog-g9ahprwb1-arsalan1664.vercel.app/",
   },
   {
     id: "02",
